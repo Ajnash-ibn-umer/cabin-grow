@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin-left: 30px;
+    font-size: 50px;
+    text-shadow: 2px 2px .5 rgb(0, 0, 0);
+
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+.header{
+    
+    background: transparent;
+    z-index: 1;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0);
+   
+    position: fixed;
+    
+}
+.logo{
+   
+    width: 250px;
+    margin-left: 10px;
+}
+
+.home{
+    
+    background:linear-gradient(rgb(24, 195, 208),rgb(74, 74, 240));
+
+    position: relative;
+height: 600px;
+}
+.wlcmfont{
+    text-shadow: 2px 2px .5 rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 50px;
+    margin: 20px 20px;
+    position: relative;
+}
+.welcm{
+    align-items: center;
+    position: absolute;
+   
+    padding-top: 15vw;
+   
+}
+.aboutus{
+ height: 600px;
+  position: relative;
+  background:linear-gradient(rgb(0, 84, 140),rgb(54, 197, 123));
+
+padding-top: 30px;
+
+}
+.para{
+    margin: auto;
+    padding: 2%;
+}
+.services{
+    position: relative;
+    background:linear-gradient(rgb(0, 84, 140),rgb(49, 107, 255));
+  height: max-content;
+  padding: 20px;
+}
+.cards{
+    border-radius: 90px;
+    margin-top: 10px;
+   
+    
+}
+.contactus{
+    background:linear-gradient(rgb(31, 158, 243),rgb(193, 211, 255));
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.contactus h3{
+    color: rgb(255, 255, 255);
+   
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background:linear-gradient(rgb(50, 55, 50),rgb(60, 54, 54));
+
+padding-left: 40%;
+padding-top: 20px;
+}
+.lg{
+width: 20px;
+
+}
+
+.abt{
+color: white;
+
+}
+.abtbtn{
+    align-items: center;
+border: 2px solid white;
+width: 100px;
+height: 50px;
+margin: auto;
+margin-top: 100px;
+padding: 10px;
+border-radius: 30px;
+padding-left: 12px;
+}
+
+.dv{
+    position: absolute;
+
+    top: 50px;
+    left: 200px;
+}
