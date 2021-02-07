@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -40,7 +43,7 @@ p{
 .home{
     
     background:linear-gradient(rgb(24, 195, 208),rgb(74, 74, 240));
-
+margin-top: 50px;
     position: relative;
 height: 600px;
 }
@@ -53,9 +56,10 @@ height: 600px;
 }
 .welcm{
     align-items: center;
-    position: absolute;
+    position:relative;
    
-    padding-top: 15vw;
+    padding-top: 16vw;
+    padding-left: 30px;
    
 }
 .aboutus{
@@ -74,7 +78,7 @@ padding-top: 30px;
     position: relative;
     background:linear-gradient(rgb(0, 84, 140),rgb(49, 107, 255));
   height: max-content;
-  padding: 20px;
+  padding: 20%;
 }
 .cards{
     border-radius: 90px;
@@ -125,4 +129,26 @@ padding-left: 12px;
 
     top: 50px;
     left: 200px;
+}
+.block{
+
+    width: 80%;
+    height: max-content;
+border: 2px solid rgb(255, 255, 255);
+padding: 6%;
+border-radius: 40px;
+background: rgba(75, 75, 75, 0.337);
+
+}
+.readmore{
+    padding: 10%;
+}
+.readmorebtn{
+    margin-left: 26%;
+    border: 2px solid white;
+    width: 100px;
+   height: 30px;
+   padding-left: 3%;
+   border-radius: 10px;
+   cursor: pointer;
 }
