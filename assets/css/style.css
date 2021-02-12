@@ -1,37 +1,36 @@
 html{
     scroll-behavior: smooth;
+  
 }
 *{
-    margin: 0px;
-    padding: 0px;
-}
-body{
-    padding: 0px;
-    margin: 0px;
-   
+ margin: auto;
+ 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-shadow: 2px 2px .5 black;
 }
+
+
 h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     margin-left: 30px;
-    font-size: 50px;
+    font-size: 5vw;
     text-shadow: 2px 2px .5 rgb(0, 0, 0);
 
 }
 p{
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
 }
 .header{
     
-    background: transparent;
+  width: 100%;
     z-index: 1;
     font-style: italic;
-    background-color: rgba(255, 255, 255, 0);
+    
    
-    position: fixed;
+   position: static;
     
 }
 .logo{
@@ -42,30 +41,33 @@ p{
 
 .home{
     
-    background:linear-gradient(rgb(24, 195, 208),rgb(74, 74, 240));
-margin-top: 50px;
+    background:linear-gradient(rgb(141, 141, 141),rgb(82, 82, 82));
+
     position: relative;
 height: 600px;
 }
 .wlcmfont{
     text-shadow: 2px 2px .5 rgb(0, 0, 0);
     font-weight: 900;
-    font-size: 50px;
+    font-size: 5vw;
     margin: 20px 20px;
     position: relative;
+    color: rgb(255, 255, 255);
+    
 }
 .welcm{
+
     align-items: center;
     position:relative;
    
-    padding-top: 16vw;
+    padding-top: 100px;
     padding-left: 30px;
    
 }
 .aboutus{
  height: 600px;
   position: relative;
-  background:linear-gradient(rgb(0, 84, 140),rgb(54, 197, 123));
+  background:linear-gradient(rgb(141, 141, 141),rgb(82, 82, 82));
 
 padding-top: 30px;
 
@@ -76,18 +78,17 @@ padding-top: 30px;
 }
 .services{
     position: relative;
-    background:linear-gradient(rgb(0, 84, 140),rgb(49, 107, 255));
+    background:linear-gradient(rgb(140, 140, 140),rgb(174, 169, 169));
   height: max-content;
-  padding: 20%;
+  padding-bottom: 50px;
 }
 .cards{
     border-radius: 90px;
     margin-top: 10px;
-   
-    
+  
 }
 .contactus{
-    background:linear-gradient(rgb(31, 158, 243),rgb(193, 211, 255));
+ background:rgb(140, 140, 140);
     padding-left: 20px;
     padding-bottom: 10px;
 }
@@ -133,10 +134,10 @@ padding-left: 12px;
 .block{
 
     width: 80%;
-    height: max-content;
-border: 2px solid rgb(255, 255, 255);
+    height: fit-content;
+border: 1.5px solid rgb(255, 255, 255);
 padding: 6%;
-border-radius: 40px;
+border-radius: 60px;
 background: rgba(75, 75, 75, 0.337);
 
 }
@@ -145,10 +146,16 @@ background: rgba(75, 75, 75, 0.337);
 }
 .readmorebtn{
     margin-left: 26%;
-    border: 2px solid white;
+    border: 1.5px solid white;
     width: 100px;
    height: 30px;
    padding-left: 3%;
-   border-radius: 10px;
+   border-radius: 45px;
    cursor: pointer;
+}
+#wlcm{
+    display: none;
+}
+.fd{
+    display: none;
 }
