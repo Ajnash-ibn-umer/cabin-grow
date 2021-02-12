@@ -1,8 +1,10 @@
 html{
     scroll-behavior: smooth;
+
   background-color: black;
   justify-content: center;
   margin: auto;
+
 }
 *{
  margin: auto;
@@ -128,7 +130,9 @@ padding-top: 100px;
     width: 80%;
     height: fit-content;
 border: 1.5px solid rgb(255, 255, 255);
+
 justify-content: center;
+
 
 border-radius: 44px;
 background: rgba(75, 75, 75, 0.337);
@@ -141,6 +145,7 @@ padding: 3%;
     padding-top:50px ;
 }
 .readmorebtn{
+
     margin: auto;
     
     align-items: center;
@@ -151,6 +156,7 @@ padding: 3%;
    border-radius: 60px;
    cursor: pointer;
    padding: 2%;
+
 }
 #wlcm{
     display: none;
