@@ -3,6 +3,7 @@ html{
   background-color: white;
   justify-content: center;
   margin: auto;
+   align-items: center;
 }
 *{
  margin: auto;
