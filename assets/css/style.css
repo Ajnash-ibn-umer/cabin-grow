@@ -2,8 +2,8 @@ html{
     scroll-behavior: smooth;
   background-color: white;
   justify-content: center;
-  margin: auto;
-   align-items: center;
+   padding: 0px;
+ margin: 0px;
 }
 *{
  margin: auto;
