@@ -18,7 +18,7 @@ $(document).ready(() => {
 
 
         $("#aboutus").mouseenter(function () {
-                $("#abtus").fadeIn(2000)
+                $("#abtus").fadeIn(1000)
         });
         $("#services").mouseenter(function () {
                 $("#srvc").fadeIn(2000)
