@@ -1,8 +1,11 @@
 html{
     scroll-behavior: smooth;
-  background-color: black;
+
+  background-color: white;
   justify-content: center;
-  margin: auto;
+   padding: 0px;
+ margin: auto;
+
 }
 *{
  margin: auto;
@@ -162,4 +165,6 @@ padding: 3%;
 }
 .card-title{
     font-weight: bold;
+
 }
+

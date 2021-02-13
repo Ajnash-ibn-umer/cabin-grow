@@ -5,6 +5,7 @@ $(document).ready(() => {
         console.log('enter');
         $("#wlcm").fadeIn(3000)
         $("#readmore").fadeIn(3000)
+        $("#abtus").fadeIn(5000)
 
 
         $("#rdBtn").mouseenter(function () {
@@ -17,12 +18,11 @@ $(document).ready(() => {
         });
 
 
-        $("#aboutus").mouseenter(function () {
-                $("#abtus").fadeIn(2000)
-        });
-        $("#services").mouseenter(function () {
-                $("#srvc").fadeIn(2000)
-        });
+        
+                
+        
+        
+
         var isrotated = false
         $(".cards").click(function (e) {
                 
@@ -44,4 +44,6 @@ $(document).ready(() => {
                 }
         });
 
+
 })
+
