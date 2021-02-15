@@ -8,39 +8,39 @@ $(document).ready(() => {
         $("#abtus").fadeIn(5000)
 
 
-       /* $(".readmore-btn").mouseenter(function () {
-                console.log("enter");
-                $(this).css({ "background-color": "rgba(0, 0, 0, 0.391)"})
-        });*/
+        /* $(".readmore-btn").mouseenter(function () {
+                 console.log("enter");
+                 $(this).css({ "background-color": "rgba(0, 0, 0, 0.391)"})
+         });*/
         $(".readmore-btn").mouseleave(function () {
                 console.log("enter");
-                $(this).css({ "background-color": "rgba(0, 0, 0, 0)"})
+                $(this).css({ "background-color": "rgba(0, 0, 0, 0)" })
         });
-      
 
 
-        
-                
-        
-        
+
+
+
+
+
 
         var isrotated = false
         $(".cards").click(function (e) {
-                
+
 
                 if (isrotated) {
 
-                       
-                                console.log("second" + isrotated);
 
-                                $(this).css({ 'transform': 'rotate(0deg)', "width": "10rem" });
+                        console.log("second" + isrotated);
 
-                                isrotated = false
-                      
-                }else if(!isrotated){
+                        $(this).css({ 'transform': 'rotate(0deg)', "width": "10rem" });
+
+                        isrotated = false
+
+                } else if (!isrotated) {
                         isrotated = true;
                         console.log("first" + isrotated);
-        
+
                         $(this).css({ 'transform': 'rotate(10deg)', "width": "10rem" });
                 }
         });

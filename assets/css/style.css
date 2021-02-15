@@ -1,256 +1,226 @@
-html,body{
-    scroll-behavior: smooth;
+html,
+body {
+  scroll-behavior: smooth;
 
   background-color: white;
-  
-  box-sizing:border-box;
-    width:100%;
-    height:100%;
- margin: auto;
 
-}
-*{
- margin: auto;
- 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-text-shadow: 2px 2px .5 black;
-}
-
-
-h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    margin-left: 30px;
-    font-size: 7vw;
-    text-shadow: 2px 2px .5 rgb(0, 0, 0);
-
-}
-p{
-    color: white;
-    font-weight: lighter;
-}
-.header{
-    
- 
-    z-index: 1;
-    font-style: italic;
-    position: absolute;
-    position: fixed;
-  top: 0;
+  box-sizing: border-box;
   width: 100%;
-   position: fixed;
-    
+  height: 100%;
+  margin: auto;
 }
-.logo{
-   
-    width: 250px;
-    margin-left: 10px;
+* {
+  margin: auto;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 2px 0.5 black;
 }
 
-.home{
-    
-    background:linear-gradient(rgb(141, 141, 141),rgb(82, 82, 82));
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  margin-left: 30px;
+  font-size: 7vw;
+  text-shadow: 2px 2px 0.5 rgb(0, 0, 0);
+}
+p {
+  color: white;
+  font-weight: lighter;
+}
+.header {
+  z-index: 1;
+  font-style: italic;
 
-    position: relative;
-height: 600px;
+  width: 100%;
+  position: fixed;
 }
-.wlcmfont{
-    text-shadow: 2px 2px .5 rgb(0, 0, 0);
-    font-weight: 900;
-    font-size: 5vw;
-    margin: 20px 20px;
-    position: relative;
-    color: rgb(255, 255, 255);
-    
+.logo {
+  width: 200px;
+  margin-left: 5px;
 }
-.welcm{
 
-    align-items: center;
-    position:relative;
-   
-    padding-top: 100px;
-    padding-left: 30px;
-   
-}
-.aboutus{
- height: 600px;
+.home {
+  background: linear-gradient(rgb(141, 141, 141), rgb(82, 82, 82));
+
   position: relative;
-  background:linear-gradient(rgb(141, 141, 141),rgb(82, 82, 82));
-
-padding-top: 30px;
-
+  height: 600px;
 }
-.para{
-    margin: auto;
-    padding: 2%;
+.wlcmfont {
+  text-shadow: 2px 2px 0.5 rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 5vw;
+  margin: 20px 20px;
+  position: relative;
+  color: rgb(255, 255, 255);
 }
-.services{
-    position: relative;
-    background:linear-gradient(rgb(140, 140, 140),rgb(174, 169, 169));
+.welcm {
+  align-items: center;
+  position: relative;
+
+  padding-top: 100px;
+  padding-left: 30px;
+}
+.aboutus {
+  height: 600px;
+  position: relative;
+  background: linear-gradient(rgb(141, 141, 141), rgb(82, 82, 82));
+
+  padding-top: 30px;
+}
+.para {
+  margin: auto;
+  padding: 2%;
+}
+.services {
+  position: relative;
+  background: linear-gradient(rgb(140, 140, 140), rgb(174, 169, 169));
   height: max-content;
   padding-bottom: 50px;
 }
-.cards{
-    border-radius: 90px;
-    margin-top: 10px;
-    cursor: pointer;
-    transition: all 0.4s ease;
-  
+.cards {
+  border-radius: 90px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
 }
-.contactus{
- background:rgb(140, 140, 140);
-    padding-left: 20px;
-    padding-bottom: 10px;
+.contactus {
+  background: rgb(140, 140, 140);
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
-.contactus h3{
-    color: rgb(255, 255, 255);
-   
+.contactus h3 {
+  color: rgb(255, 255, 255);
 }
-.footer{
-    height: 200px;
+.footer {
+  height: 200px;
 
-    background:white
-
-
+  background: white;
+  display: flex;
 }
-.lg{
-width: 20px;
-
+.lg {
+  width: 20px;
 }
 
-.abt{
-color: white;
-
+.abt {
+  color: white;
 }
 
+.dv {
+  position: absolute;
+  padding-top: 100px;
+  top: 50px;
+  left: 200px;
+}
+.block {
+  width: 80%;
+  height: fit-content;
+  border: 1.5px solid rgb(255, 255, 255);
+  justify-content: center;
 
-.dv{
-    position: absolute;
-padding-top: 100px;
-    top: 50px;
-    left: 200px;
+  border-radius: 15px;
+  background: rgba(75, 75, 75, 0.337);
+  padding: 3%;
+  box-shadow: 2px 2px 2px rgba(170, 170, 170, 0.382);
 }
-.block{
+.readmore {
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 50px;
+}
+.readmorebtn {
+  margin: auto;
 
-    width: 80%;
-    height: fit-content;
-border: 1.5px solid rgb(255, 255, 255);
-justify-content: center;
+  align-items: center;
+  border: 1.5px solid white;
+  width: 100px;
+  height: 40px;
 
-border-radius: 15px;
-background: rgba(75, 75, 75, 0.337);
-padding: 3%;
-box-shadow: 2px 2px 2px rgba(170, 170, 170, 0.382) ;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 2%;
 }
-.readmore{
-    margin: auto;
-    text-align: center;
-    font-weight: lighter; 
-    padding-top:50px ;
+#wlcm {
+  display: none;
 }
-.readmorebtn{
-    margin: auto;
-    
-    align-items: center;
-    border: 1.5px solid white;
-    width: 100px;
-   height: 40px;
-   
-   border-radius: 10px;
-   cursor: pointer;
-   padding: 2%;
+.fd {
+  display: none;
 }
-#wlcm{
-    display: none;
-}
-.fd{
-    display: none;
-}
-.card-title{
-    font-weight: bold;
-
+.card-title {
+  font-weight: bold;
 }
 
-.readmore-btn{
-    background-color: transparent;
-    border: 1px solid rgb(255, 255, 255);
-    cursor: pointer;
+.readmore-btn {
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
 }
-.contact{
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    display: flex;
-   
+.contact {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
 }
-.whatsapp{
-  
-    size: 100px 200px;
-    font-size:1em;
-    font-weight: bold;
-    margin-top: 3em;
-    margin-left: 2em;
-    color: #000;
+.whatsapp {
+  size: 100px 200px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 3em;
+  margin-left: 2em;
+  color: #000;
 }
-.email{
-    font-size:1em;
-    font-weight: bold;
-    margin-top: 1em;
-    margin-left: 2em;
+.email {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-left: 2em;
 }
 
-.instalink{
+.instalink {
+  width: 30px;
+  height: 30px;
 
-width: 30px;
-height: 30px;
-
-
-float: left;
+  float: left;
 }
-.fblink{
-    width: 30px;
-    height: 30px;
-float: left;
-
-
-    
+.fblink {
+  width: 30px;
+  height: 30px;
+  float: left;
 }
-.readmore-btn:hover{
-    background-color: rgba(0, 0, 0, 0.391);
+.readmore-btn:hover {
+  background-color: rgba(0, 0, 0, 0.391);
 }
 
-*,*::after,*::before{
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-.nav-item:hover{
-    color:rgb(32, 0, 84) ;
+.nav-item:hover {
+  color: rgb(32, 0, 84);
 }
-.logobotm{
-    
-    width: 200px;
-   
-    
-   box-sizing: border-box;
-   margin-left: 6%;
-   margin: auto;
-   
-}
-.socialmedia{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-    padding: 3em;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-}
-.links{
-    width: 100%;
-    height: 30px;
- 
-    align-items: center;
-    padding: auto;
-    display: flex;
+.logobotm {
+  width: 200px;
 
+  box-sizing: border-box;
+  margin-left: 6%;
+  margin: auto;
+}
+.socialmedia {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  padding: 3em;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.links {
+  width: 100%;
+  height: 30px;
+
+  align-items: center;
+  padding: auto;
+  display: flex;
 }
