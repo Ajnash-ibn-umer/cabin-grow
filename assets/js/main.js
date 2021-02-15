@@ -8,14 +8,15 @@ $(document).ready(() => {
         $("#abtus").fadeIn(5000)
 
 
-        $("#rdBtn").mouseenter(function () {
+       /* $(".readmore-btn").mouseenter(function () {
                 console.log("enter");
-                $(this).css({ "background-color": "rgba(0, 0, 0, 0.200)" })
-        });
-        $("#rdBtn").mouseleave(function () {
+                $(this).css({ "background-color": "rgba(0, 0, 0, 0.391)"})
+        });*/
+        $(".readmore-btn").mouseleave(function () {
                 console.log("enter");
-                $(this).css({ "background-color": "rgba(0, 0, 0, 0)" })
+                $(this).css({ "background-color": "rgba(0, 0, 0, 0)"})
         });
+      
 
 
         
