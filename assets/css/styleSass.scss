@@ -1,7 +1,7 @@
 /*navbar*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
-$font-family: 'Roboto', sans-serif;
+$font-family: "Roboto", sans-serif;
 $font-size-base: 0.925rem;
 $base-color: #66f;
 $text-dark: #3c4250;
@@ -14,7 +14,6 @@ $navbar-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.035);
 
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -27,7 +26,6 @@ a {
 }
 
 .container {
-  
   position: relative;
   margin: {
     left: auto;
@@ -98,7 +96,9 @@ a {
       display: none;
       outline: none;
 
-      @media (max-width: 768px) { display: block }
+      @media (max-width: 768px) {
+        display: block;
+      }
 
       span {
         height: 2px;
@@ -145,7 +145,7 @@ a {
       @media (max-width: 768px) {
         width: 100%;
         display: block;
-        border-top: 1px solid #EEE;
+        border-top: 1px solid #eee;
         margin-top: 1rem;
       }
 
@@ -159,7 +159,7 @@ a {
             color: $navbar-link-hover;
           }
           @media (max-width: 768px) {
-            border-bottom: 1px solid #EEE;
+            border-bottom: 1px solid #eee;
           }
         }
         &.active {
@@ -214,7 +214,6 @@ a {
     position: relative;
   }
 }
-
 
 // Custom
 .navbar .navbar-header > a span {

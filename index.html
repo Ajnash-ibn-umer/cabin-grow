@@ -7,6 +7,7 @@
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -17,7 +18,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/styleSass.css">
     <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -62,21 +63,15 @@
         <!-------------------------------------Home start------------------------------------------------------------->
         <section class="home" id="home">
             <div class="row ">
-                <div class=" custom-shape-divider-bottom-1612630509">
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                        preserveAspectRatio="none">
-                        <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z"
-                            class="shape-fill"></path>
-                    </svg>
-                </div>
+                
 
 
                 <div class="col-12 col-md-6  welcm fd" id="wlcm">
                     <h3 class="wlcmfont">"WELCOME TO <br> <span
                             style="font-weight: 900;font-size: 7vw; color: rgb(255, 255, 255);">C</span><span
-                            style="color: rgb(24, 33, 104);">ABIN</span><span
+                            style="color: rgb(113, 129, 255);text-shadow: 2px 2px 5px  rgb(0, 0, 0,.5);">ABIN</span><span
                             style="font-weight: 900;font-size: 7vw; color: rgb(255, 255, 255);">G</span><span
-                            style="color: rgb(24, 33, 104);">ROW"</span></h3>
+                            style="color: rgb(113, 129, 255);text-shadow: 2px 2px 5px rgb(0, 0, 0,.5);">ROW"</span></h3>
                 </div>
                 <div class="col-12 col-md-6 readmore fd" id="readmore">
                     <div class="block">
@@ -201,21 +196,21 @@
             <div class="row">
                 <h3 class="col-12">CONTACT US</h3><br>
                 <div class="col-12 col-md-8">
-                    <form>
+                    <form class="forms" id="gform"  action="https://script.google.com/macros/s/AKfycbw20mfugaybttSNePJ1aAQ_yayz71aly7MuefSfOYdptytY4iWjqkTgZyPT2HHEITdr/exec">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="Enter Name">
+                            <input type="text" class="form-control" id="name" 
+                             name="name"   placeholder="Enter Name">
 
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone</label>
-                            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone">
+                            <input type="number" name="phone" class="form-control" id="phone" placeholder="Phone">
                         </div>
-                        <label for="Enter Message">Enter Message</label><br>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <label for="message">Enter Message</label><br>
+                        <input name="message" type="text" class="form-control" id="message" aria-describedby="emailHelp"
                             placeholder="Enter Message"><br>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn button">Submit</button>
                     </form>
                 </div>
             </div>
@@ -242,7 +237,7 @@
                         viewBox="0 0 16 16">
                         <path
                             d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-                    </svg><i class="bi bi-telephone-fill pl-2  text-dark"></i>: cabingrow@gmail.com</i>
+                    </svg><i class="bi bi-telephone-fill pl-2  text-dark"></i>: <a href="www.cabingrow@gmail.com">cabingrow@gmail.com</a> </i>
                 </div>
 
 
@@ -269,7 +264,7 @@
 
 
             </div>
-
+            <p class="para-copyright">All copyright 2021 reserved </p>
         </div>
 
     </footer>
@@ -279,18 +274,33 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="./assets/js/main.js"></script>
-    <script>
-
-    </script>
+   <!--<script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script> --> 
 
 
 
